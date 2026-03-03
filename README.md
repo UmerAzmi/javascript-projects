@@ -13,6 +13,9 @@ Many of these projects are deployed via GitHub Pages and include live demo links
 ### 🧮 Calculator
 A fully functional on-page calculator with dynamic display resizing, backspace, error handling, and arithmetic operations.
 
+### 🔢 Counter 
+An interactive counter that increments, decrements, and resets values dynamically using event-driven DOM updates.
+
 ### 🎲 Dice Roller
 Enter a number of dice to roll; this app generates random dice values and displays them instantly.
 
@@ -60,12 +63,3 @@ This repository is designed to:
 - Live demo badges and preview images for many projects make this repo easy to browse and use.
 
 ---
-
-If you want, I can also help you:
-
-🔥 Create a **main portfolio landing page** that links to each demo  
-🎯 Generate badges (e.g., ⭐ JavaScript, 📦 No dependencies) automatically  
-📊 Suggest improvements to the repo for recruiter impact  
-🚀 Split out *application-level projects* into their own repo (like weather or HP API app)
-
-Just say 😎
