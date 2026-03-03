@@ -1,0 +1,85 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #000000d5;
+    margin: 0;
+    padding: 20px;
+}
+
+.title{
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+    width: fit-content;
+    margin: 10px auto 25px;
+    padding: 12px 22px;
+    border-radius: 8px;
+    border-bottom: 3px solid hsl(0, 0%, 100%);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.generatorBox{
+    background-color: rgba(255,255,255,0.5);
+    max-width: 500px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 8px;
+    border-bottom: 3px solid hsl(0, 0%, 98%);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.inputDiv{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.inputDiv input{
+    display: block;
+    margin: 8px auto;
+    padding: 8px;
+    width: 120px;
+    text-align: center;
+    border-radius: 4px;
+    border: 2px solid #333;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+button{
+    display: block;
+    margin: 12px auto;
+    padding: 8px 16px;
+    background-color: hsla(1, 82%, 55%, 0.727);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 3px solid #3e0b01;
+    transition: background-color 0.2s;
+}
+
+button:hover{
+    background-color: hsl(0, 65%, 65%);
+}
+
+.outputBox{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#passwordOutput{
+    background-color: rgba(255,255,255,0.8);
+    padding: 12px;
+    border-radius: 6px;
+    word-break: break-all;
+    margin-bottom: 10px;
+    font-family: consolas, monospace;
+}
+
+#length {
+    padding-left: 20px;
+}
