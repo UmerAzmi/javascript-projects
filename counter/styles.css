@@ -1,0 +1,40 @@
+body {
+    /* background-color: aqua; */
+    font-family: consolas, Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1{
+    /* text-decoration: underline; */
+    font-size: 3.5em;
+    margin-bottom: 0;
+}
+
+#counter{
+    font-size: 10em;
+    padding-bottom: 30px;
+    color: rgb(1, 195, 195);
+}
+
+.divBtn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.divBtn .button{
+    border-radius: 5px;
+    font-size: 1.5em;
+    cursor: pointer;
+    min-width: 1.2em;
+    padding: 5px 15px;
+    background-color: rgb(0, 58, 58);
+    color: white;
+    transition: background-color 0.25s;
+}
+
+.button:hover{
+    background-color: hsl(180, 100%, 49%);
+    color: black;
+}
