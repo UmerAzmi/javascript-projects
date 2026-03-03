@@ -4,7 +4,7 @@ A modern calculator built using HTML, CSS, and JavaScript that performs real-tim
 
 ## Preview
 <div>
-<a href="https://UmerAzmi.github.io/javascript-project/calculator/" target="_blank">
+<a href="https://UmerAzmi.github.io/javascript-projects/calculator/" target="_blank">
   <img src="https://img.shields.io/badge/View-Live%20Demo-blue?style=for-the-badge">
 </a>
 <br><br>
