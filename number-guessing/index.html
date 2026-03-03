@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">
+      <span>Number Guessing Game</span>
+    </h1>
+    <section id="diffultySection">
+      <img src="./images/number.png" alt="Img" />
+      <div class="inputDiv diffDiv">
+        <input
+          type="number"
+          id="diff"
+          placeholder=" Enter a Difficulty Level (1-5)"
+          min="1"
+          max="5"
+          required
+        />
+        <button id="startBtn">Start Game</button>
+      </div>
+      <div class="info-box">
+        <span>Difficulty Levels:</span>
+        <ul>
+          <li>Level 1: Easy (1-10)</li>
+          <li>Level 2: Medium (1-50)</li>
+          <li>Level 3: Hard (1-100)</li>
+          <li>Level 4: Expert (1-500)</li>
+          <li>Level 5: Insane (1-1000)</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="return"></div>
+    <section id="guessingSection">
+      <img src="./images/number.png" alt="Img" />
+      <div class="inputDiv guessDiv">
+        <input type="number" id="guess" placeholder="Enter your guess" />
+        <div class="button-container">
+          <button id="guessBtn">Submit Guess</button>
+          <button id="resetBtn">Reset Game</button>
+        </div>
+      </div>
+      <div class="info-box output">
+        <ul>
+          <li id="pTag"></li>
+          <li id="result"></li>
+          <li id="try"></li>
+        </ul>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
