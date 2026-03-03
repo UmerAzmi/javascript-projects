@@ -1,0 +1,134 @@
+html {
+  font-size: 20px;   /* default is 16px */
+}
+
+body {
+    background-color: #222;
+    font-family: "SN Pro";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weatherForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+.weatherForm .cityInput{
+    font-size: 1.4em;
+    font-weight: bold;
+    
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+
+    color: #555;
+    background: linear-gradient(135deg, hsl(0, 0%, 81%), rgb(160, 160, 160));
+    
+    padding: 6px 25px;
+    height: 40px;
+    flex: 3;
+}
+
+.weatherForm button{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    
+    border: none;
+    border-radius: 40px;
+    
+    background: linear-gradient(135deg, hsla(164, 99%, 43%, 0.696), hsla(247, 24%, 35%, 0.729));;
+    box-shadow: 1px 1px 6px hsl(164, 99%, 43%);
+    /* padding: 6px 12px; */
+    cursor: pointer;
+}
+
+.weatherForm img{
+    width: 2rem;
+    padding: 10px;
+}
+.weatherForm button:hover{
+    background-color: hsl(0, 0%, 100%);
+}
+.weatherForm button:active{
+    background: linear-gradient(135deg, hsl(164, 99%, 43%), hsl(247, 24%, 35%));
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background: linear-gradient(135deg, hsl(164, 99%, 43%), hsl(247, 24%, 35%));
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px hsl(164, 99%, 43%);
+    
+    padding: 40px;
+    padding-top: 70px;
+    min-width: 400px;  
+    max-width: 350px;
+
+    text-align: center;
+}
+
+.cityName {
+    color: hsla(0, 0%, 0%, 0.844);
+
+    font-size: 3.0rem;
+    font-weight: bold;
+
+    margin: 0 0 25px;
+
+    /* text-decoration: 2px underline; */
+}
+
+p {
+    font-size: 1.5rem;  
+    margin: 8px 0;
+}
+
+.temp {
+    font-size: 2.5rem;
+    font-weight: bold;
+
+    margin-top: 0;
+
+}
+
+.humidity {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.weatherType {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+
+    margin: 15px 0 0;
+}
+
+.emoji{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 10px 0 27px 5px;
+    font-size: 7em;
+    line-height: 1;
+}
+
+.error{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.errorEmoji{
+    font-size: 2em;
+    line-height: 1;
+    vertical-align: middle;
+}
