@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main{
+    background-color: white;
+
+    border-radius: 4px;
+
+    padding: 50px;
+    margin: auto;
+
+    width: 90vw;
+    height: 90vh;
+    box-sizing: border-box;
+
+    overflow-y: auto; 
+}
+
+h1 {
+    margin: 30px;
+    display: block;
+    text-align: center;
+}
+
+span {
+    text-align: center;
+    display: block;
+
+}
+
+input {
+    display: block;
+    margin: 6px auto 5px;
+    padding-left: 20px;
+
+    width: 60%;       
+    max-width: 10rem;
+
+    text-align: center;
+
+    border-radius: 4px;
+}
+
+button {
+    display: block;
+    margin: auto auto 10px;
+    padding: 5px 10px;
+
+    border: none;
+    border-radius: 6px;
+
+    font-size: 1.2em;
+
+    color: black;
+    background-color: rgb(244, 174, 82);
+    
+    cursor: pointer;
+    
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+button:hover{
+    background-color: rgba(244, 174, 82, 0.908);
+    box-shadow: 1px 1px 4px black, -1px -1px 4px rgb(194, 194, 194);
+
+}
+
+.diceImgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 100px;
+}
+
+.divTxt{
+    display: block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif
+}
